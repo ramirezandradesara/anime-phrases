@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    color: white
+}
+
+body{
+    background: url('background.gif') no-repeat;
+    background-size: cover;
+}
+
+.keys{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    align-items: center;
+    min-height: 100vh;
+
+}
+
+.key{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+    margin: 1rem;
+    border: 2px solid white;
+    background: rgba(0,0,0,0.4);
+    text-shadow: 0 0 .5rem black;
+    transition: all .8s ease-in-out;
+    border-radius: 2px;
+}
+
+.playing {
+    transform: scale(1.1);
+    border-color: #E926BE;
+    box-shadow: 0 0 1rem #E926BE;
+} 
+
